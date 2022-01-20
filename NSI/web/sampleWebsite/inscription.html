@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<style type="text/css">
+			h1{								<!-- Le code suivant s'applique à tous les titres H1 -->
+				text-align: center;
+				background-color: #444444;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Tu fais bien!</h1>
+		
+		<p>Tu pourra recevoir toutes les nouvelles en avant première</p>
+		<div id=form_pseudo>											<!-- l'id est utilisé par le script JavaScript -->
+			<form action="validation.php" method="post">
+				<label for="id_pseudo">Pseudo : </label>
+				<input type="text" id="id_pseudo" name="pseudo"><br/>
+				<label for="id_mail">Mail : </label>
+				<input type="text" id="id_mail" name="mail"><br/>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</body>
+	<script type="text/javascript">
+		let pseudo = document.getElementById("id_pseudo");				<!-- affecte une variable avec une reference de la balise correspondante à l'id id_pseudo -->
+		const queryString = window.location.search;						<!-- fonction qui permet de preparer une recherche dans l'URL -->
+		const urlParams = new URLSearchParams(queryString);				<!-- extrait les paramètres contenus dans l'URL
+		pseudo.value = urlParams.get('pseudo')							<!-- recupère la valeur du paramètre contenue dans l'URL
+	</script>
+</html>

@@ -1,0 +1,31 @@
+<!-- Page appelé par défaut lors d'une requete HTTP -->
+<!-- ** GET / http/1.1 ** -->
+<!-- ** host : ...     ** -->
+<!-- ici le / suivant le GET correspond à cette page par defaut -->
+<html>
+	<head>
+		<style type="text/css">				<!-- Script CSS embaqué dans la page Web -->
+			h1{								<!-- Le code suivant s'applique à tous les titres H1 -->
+				text-align: center;
+				background-color: #444444;
+			}
+			#form_pseudo{					<!-- Le code suivant s'applique à LA balise qui a pour id form_pseudo -->
+				text-align: center;
+				border-style: solid;
+				padding: 3px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Bonjour et bienvenue</h1>
+		
+		<p>Pour rentrer sur notre site, il faut que tu te choisisse un pseudo</p>
+		<div id=form_pseudo>											<!-- balise affectée par le code CSS -->
+			<form action="le_site.php" method="get">					<!-- formulaire qui utilise la méthode get pour "envoyer" les données -->
+				<label for="id_pseudo">Pseudo : </label>
+				<input type="text" id="id_pseudo" name="pseudo"><br/>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</body>
+</html>
