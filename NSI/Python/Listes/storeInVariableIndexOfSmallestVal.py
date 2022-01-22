@@ -21,7 +21,7 @@ def smallestValueInListIndexIdentifierWithLoop(vallist:list):
     for i in vallist:
         if i < smallestValueCandidate:
             smallestValueCandidate = i
-    return smallestValueCandidate
+    return list.index(smallestValueCandidate)
 
 
 #+++++++++++++++++++++++++++++++++MENU MENU MENU MENU+++++++++++++++++++++++++++++++++#
