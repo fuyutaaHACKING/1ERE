@@ -214,7 +214,7 @@ Non dérivable, limite infinie en 0
 <details>
 <summary>Answer</summary>
 Dérivable en O  <br>
--(2/xCUBE)
+f'(0) = 3
 </details>
 
 -----------------------------------------------
@@ -222,7 +222,7 @@ Dérivable en O  <br>
 <details>
 <summary>Answer</summary>
 Derivable en 0 <br>
-2/(-3x+1)²
+g'(0) = 0
 </details>
 
 -----------------------------------------------
@@ -230,7 +230,7 @@ Derivable en 0 <br>
 <details>
 <summary>Answer</summary>
 Derivable en 0  <br>
-(2x²-2x-3)/(x²+1)²
+h'(3) = 0
 </details>
 
 -----------------------------------------------
@@ -238,5 +238,5 @@ Derivable en 0  <br>
 <details>
 <summary>Answer</summary>
 Derivable en 0 <br>
--(3/(2x√x))
+k'(0) = 1
 </details>
