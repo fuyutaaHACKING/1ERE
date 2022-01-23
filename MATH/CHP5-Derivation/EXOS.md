@@ -4,7 +4,7 @@
 ### a. f(x) = -6x³
 <details>
 <summary>Answer</summary>
-Dérivable sur R  
+Dérivable sur R  <br>
 -18x²
 </details>
 
@@ -12,7 +12,7 @@ Dérivable sur R
 ### b. f(x) = -4x²+8.2
 <details>
 <summary>Answer</summary>
-Dérivable sur R  
+Dérivable sur R  <br>
 -8x
 </details>
 
@@ -20,7 +20,7 @@ Dérivable sur R
 ### c. f(x) = -3x²+2x-18
 <details>
 <summary>Answer</summary>
-Dérivable sur R  
+Dérivable sur R  <br>
 -6x+2
 </details>
 
@@ -28,7 +28,7 @@ Dérivable sur R
 ### d. f(x) = -2x³+7x²-(x/3)+12
 <details>
 <summary>Answer</summary>
-Dérivable sur R  
+Dérivable sur R  <br>
 -6x²+14x-(1/3)
 </details>
 
@@ -36,7 +36,7 @@ Dérivable sur R
 ### e. f(x) = (5x²-2x+9)/3
 <details>
 <summary>Answer</summary>
-Dérivable sur R  
+Dérivable sur R  <br>
 (10x-2)/3
 </details>
 
@@ -50,7 +50,7 @@ Dérivable sur R
 ### a. f(x) = (3x²/5)
 <details>
 <summary>Answer</summary>
-Dérivable sur R  
+Dérivable sur R  <br>
 6x/5
 </details>
 
@@ -58,7 +58,7 @@ Dérivable sur R
 ### b. f(x) = -5x²+7.2x-5
 <details>
 <summary>Answer</summary>
-Derivable sur R  
+Derivable sur R  <br>
 -10x+7.2
 </details>
 
@@ -66,7 +66,7 @@ Derivable sur R
 ### c. f(x) = 8x²+(5x-2)/7
 <details>
 <summary>Answer</summary>
-Derivable sur R  
+Derivable sur R  <br>
 16x+(5/7)
 </details>
 
@@ -74,7 +74,7 @@ Derivable sur R
 ### d. f(x) = (3x-7)²
 <details>
 <summary>Answer</summary>
-Derivable sur R  
+Derivable sur R  <br>
 18x-42
 </details>
 
@@ -82,7 +82,7 @@ Derivable sur R
 ### e. f(x) = (5-3x)(5+3x)
 <details>
 <summary>Answer</summary>
-Derivable sur R  
+Derivable sur R  <br>
 -18x
 </details>
 
