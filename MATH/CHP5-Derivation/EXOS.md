@@ -8,7 +8,7 @@
 > -8x
 
 ### c. f(x) = -3x²+2x-18
-> <details>
+<details>
 <summary>Answer</summary>
 -6x+2
 </details>
