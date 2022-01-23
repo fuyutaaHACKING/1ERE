@@ -133,7 +133,7 @@ Derivable sur R\{-6}  <br>
 # N41 P121:
 ## Determiner l'ensemble de dérivabilité de la fonction, puis calculer sa dérivée.
 
-### a. f(x) = 1/(-2x+4)
+### a. f(x) = 1/x²
 <details>
 <summary>Answer</summary>
 Dérivable sur R\{2}  <br>
@@ -141,7 +141,7 @@ Dérivable sur R\{2}  <br>
 </details>
 
 -----------------------------------------------
-### b. f(x) = (3x-1)/(2x+6)
+### b. f(x) = 2x/(-3x+1)
 <details>
 <summary>Answer</summary>
 Derivable sur R\{-3}  <br>
@@ -149,7 +149,7 @@ Derivable sur R\{-3}  <br>
 </details>
 
 -----------------------------------------------
-### c. f(x) = 3x/(x²+1)
+### c. f(x) = (-2x+1)/(x²+5x-1)
 <details>
 <summary>Answer</summary>
 Derivable sur R  <br>
@@ -157,9 +157,9 @@ Derivable sur R  <br>
 </details>
 
 -----------------------------------------------
-### d. f(x) = xCUBE/(x+4)
+### d. f(x) = 3/√x
 <details>
 <summary>Answer</summary>
-Derivable sur R\{-6}  <br>
+Derivable sur ]0;+⧞[  <br>
 -(3/(2x√x))
 </details>
