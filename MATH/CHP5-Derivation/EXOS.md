@@ -86,3 +86,80 @@ Derivable sur R  <br>
 -18x
 </details>
 
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+# N40 P121:
+## Determiner l'ensemble de dérivabilité de la fonction, puis calculer sa dérivée.
+
+### a. f(x) = 1/(-2x+4)
+<details>
+<summary>Answer</summary>
+Dérivable sur R\{2}  <br>
+2/(-2x+4)²
+</details>
+
+-----------------------------------------------
+### b. f(x) = (3x-1)/(2x+6)
+<details>
+<summary>Answer</summary>
+Derivable sur R\{-3}  <br>
+20/(2x+6)²
+</details>
+
+-----------------------------------------------
+### c. f(x) = 3x/(x²+1)
+<details>
+<summary>Answer</summary>
+Derivable sur R  <br>
+(-3x²+3)/(x²+1)²
+</details>
+
+-----------------------------------------------
+### d. f(x) = xCUBE/(x+4)
+<details>
+<summary>Answer</summary>
+Derivable sur R\{-6}  <br>
+(2xCUBE+18x²)/(x+6)²
+</details>
+
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+# N41 P121:
+## Determiner l'ensemble de dérivabilité de la fonction, puis calculer sa dérivée.
+
+### a. f(x) = 1/(-2x+4)
+<details>
+<summary>Answer</summary>
+Dérivable sur R\{2}  <br>
+-(2/xCUBE)
+</details>
+
+-----------------------------------------------
+### b. f(x) = (3x-1)/(2x+6)
+<details>
+<summary>Answer</summary>
+Derivable sur R\{-3}  <br>
+2/(-3x+1)²
+</details>
+
+-----------------------------------------------
+### c. f(x) = 3x/(x²+1)
+<details>
+<summary>Answer</summary>
+Derivable sur R  <br>
+(2x²-2x-3)/(x²+1)²
+</details>
+
+-----------------------------------------------
+### d. f(x) = xCUBE/(x+4)
+<details>
+<summary>Answer</summary>
+Derivable sur R\{-6}  <br>
+-(3/(2x√x))
+</details>
