@@ -163,3 +163,80 @@ Derivable sur R{x1; x2}  <br>
 Derivable sur ]0;+⧞[  <br>
 -(3/(2x√x))
 </details>
+
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+# N45 P122:
+## Pour chaque fonction, determiner si la fonction rest dérivable en a et s'il existe, donner la valeur du nombre dérivé en a.
+
+### a. f(x) = -3x+1 |||| a = 1
+<details>
+<summary>Answer</summary>
+Dérivable en 1  <br>
+f'(1) = -3
+</details>
+
+-----------------------------------------------
+### b. f(x) = 3x²-4 |||| a = 2
+<details>
+<summary>Answer</summary>
+Derivable en 2  <br>
+f'(x) = 3h+12
+</details>
+
+-----------------------------------------------
+### c. f(x) = x²+7x-3 |||| a = 3
+<details>
+<summary>Answer</summary>
+Derivable en 3  <br>
+f'(x) = h + 13
+</details>
+
+-----------------------------------------------
+### d. f(x) = √x-2 |||| a = 2
+<details>
+<summary>Answer</summary>
+Non dérivable, limite infinie en 0
+</details>
+
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+# N46 P122:
+## Pour chaque fonction, determiner si la fonction rest dérivable en a et s'il existe, donner la valeur du nombre dérivé en a.
+
+### a. f(x) = -2x²+3x-1 |||| a = 0
+<details>
+<summary>Answer</summary>
+Dérivable en O  <br>
+-(2/xCUBE)
+</details>
+
+-----------------------------------------------
+### b. f(x) = 2x²-5 |||| a = 0
+<details>
+<summary>Answer</summary>
+Derivable en 0 <br>
+2/(-3x+1)²
+</details>
+
+-----------------------------------------------
+### c. f(x) = (x-3)² |||| a = 3
+<details>
+<summary>Answer</summary>
+Derivable en 0  <br>
+(2x²-2x-3)/(x²+1)²
+</details>
+
+-----------------------------------------------
+### d. f(x) = x/(x+1) |||| a = 0
+<details>
+<summary>Answer</summary>
+Derivable en 0 <br>
+-(3/(2x√x))
+</details>
