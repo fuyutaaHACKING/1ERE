@@ -1,0 +1,3 @@
+print("L'ordonnée à l'origine d'une \nfonction f est donc la valeur \nde f lorsque la variable \nindépendante x est nulle, \nsoit f(0).")
+print("---------------------\n TYPES DE FONCTIONS \n----------------------")
+print("- Fonction affine : f(x)=mx+p\n(m et p sont des réels)\n représentation : droite\n---------------------------\n- fonction carré : f(x)=x2\n représentation : parabole \ndont le sommet est l'origine\n---------------------------\n- fonction inverse :\n f(-x)= 1/-x = 1/x = -f(-x)\n représentation : hyperbole \ndont le centre est l'origine \ndu repère")

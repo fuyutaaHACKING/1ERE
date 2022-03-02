@@ -1,0 +1,2 @@
+print("Lors d’une transformation \nchimique, les atomes tendent à \nobtenir la configuration \nélectronique d-un gaz \nnoble (souvent celle du plus \nproche).\nIl y a donc deux possibilités :\n- règle du duet : même \nconfiguration électronique \nque l’Hélium (1s2), il \npossède alors 2 électrons de \nvalence \n- règle de l’octet : même \nconfiguration électronique \nque le néon et l’argon, avec \n8 électrons de valence .")
+print("Pour qu’un atome devienne \nun ion monoatomique il doit \ngagner ou perdre un ou \nplusieurs électrons.")

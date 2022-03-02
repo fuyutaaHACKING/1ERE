@@ -1,0 +1,41 @@
+print("(Un) strictement croissante")
+print("Un+1-Un>0")
+print("(Un) strictement décroissante")
+print("Un+1-Un<0")
+print("(Un) constante")
+print("Un+1=Un")
+
+print("++++++++++++++++++++++")
+print("Donner des valeurs de U")
+print("(Un) définie sur n > 0 pour 2n+3")
+print("U0=... U1=...")
+
+print("++++++++++++++++++++++")
+print("determ la raison d'une SG")
+print("Un=U0*qn")
+
+print("++++++++++++++++++++++")
+print("Somme de termes")
+print("nbTermes*(1st+last/2)")
+print("--------")
+print("exemple de somme de termes")
+print("1à19 : 19(1+19)/2=190")
+
+print("++++++++++++++++++++++")
+print("Terme général SG")
+print("Un = U0*qn")
+
+print("++++++++++++++++++++++")
+print("Terme général SA")
+print("Un+1=Un+r")
+
+print("++++++++++++++++++++++")
+print("Trouver le terme U0")
+print("Un=U0*nr")
+
+print("++++++++++++++++++++++")
+print("Poruver type de suite")
+print("Vn = 22n")
+print("V0=... V1=... V2=....")
+print("Vn+1-Vn=...  result=constant")
+print("Donc Vn est une SA de 1er terme U0=0\net de raison r=22")
