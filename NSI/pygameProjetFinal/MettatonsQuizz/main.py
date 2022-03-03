@@ -13,7 +13,7 @@ FPS = 60
 SCREEN = pygame.display.set_mode((DISPLAY_WIDTH, DISPLAY_HEIGHT))
 pygame.display.set_caption("Mettaton's Quizz")
 
-BG = pygame.image.load("assets/sprites/mettatonBg1.png")
+BG = pygame.image.load("assets/sprites/homeScreenBG.png")
 BG = pygame.transform.scale(BG, (1280, 720))
 
 all_sprites = pygame.sprite.Group()
