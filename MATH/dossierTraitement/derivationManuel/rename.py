@@ -5,7 +5,7 @@ collection = "."
 def rename(collection, newFilename, startingNumber, extension):
     for i, filename in enumerate(os.listdir(collection)):
         if filename != 'rename.py':
-            os.rename(filename, newFilename + str(int(startingNumber) + i) + ('.' + extension)
+            os.rename(filename, newFilename + str(int(startingNumber) + i) + ('.' + extension))
 
 def menu():
     print("#-----------------------------#RENAMER 1.0#-----------------------------#")
