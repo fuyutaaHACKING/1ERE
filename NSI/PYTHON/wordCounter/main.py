@@ -38,17 +38,20 @@ def menuWordCounterNoExceptions():
 ########    WORD COUNTER V2.0   #################
 ################################################
 
-mot = "abcdefghijklmnopqrstuvwxyz"
+# SUPPORTE L'IMPLEMENTATION D'EXCEPTIONS, EN CAS DE BESOIN
+
+motAvecAccents = "abcdefghijklmnopqrstuvwxyz"
 phrase = ""
 
 def wordCounterWithExceptions(phrase):
     wordCount = 0
     phrase = phrase.lower()
     extractedWords = phrase.split()
+    exceptions = ["exception"]
     print(extractedWords)
     for word in extractedWords:
-        for letter in mot:
-            if letter in word:
+        for letter in motAvecAccents:
+            if letter in word or word in exceptions:
                 wordCount = wordCount + 1
                 break
     return wordCount
