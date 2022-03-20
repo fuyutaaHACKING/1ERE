@@ -1,8 +1,8 @@
-puissance_de_2 = [] #Création d'une liste python
-for index in range(8): #boucle bournée, ! aux ':' en fin ligne
+puissance_de_2 = [] 
+for index in range(8): 
     puissance_de_2.append(2**index)
     
-print(puissance_de_2) #affiche le contenu de la variable puissance_de_2
+print(puissance_de_2) #shows the content of the variable puissance_de_2
 
 sequence = '10101010'
 convert = 0

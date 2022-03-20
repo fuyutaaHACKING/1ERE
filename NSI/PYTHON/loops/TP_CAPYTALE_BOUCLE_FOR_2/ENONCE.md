@@ -1,4 +1,3 @@
-'''
 La boucle for est dite bornée car nous connaissons par avance le nombre d'itération.
 
 1/ Traduisez ce pseudo-code en Python
@@ -32,4 +31,3 @@ Affichages plus élaborés
 sur N ligne, chaque ligne ayant le nombre d'étoile de son rang.
 
 **TIPS : print(N * '^') affiche N fois '^', N étant un entier.
-'''
