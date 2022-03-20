@@ -12,7 +12,7 @@ if True:
     drawPolygon()
 
 '''
-ORIGINAL CODE :
+ORIGINAL CODE : noot
 
 import turtle           #importation de la bibliotheque turtle
 turtle.hideturtle()     #cache la petite tortue
