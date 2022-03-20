@@ -188,3 +188,105 @@ while(my_variable != 0):
     my_variable -= 1
     print(my_variable)
 
+
+
+#-----------------------------------------------------|-----------------------------------------------------#
+############################################################################################################
+############################################################################################################
+############################################################################################################
+############################################################################################################
+############################################################################################################
+#-----------------------------------------------------|-----------------------------------------------------#
+'''
+## Les fonctions
+Une fonction est définit grace au mot clé **def**
+* def maFonction():
+* def maFonction2(parametre_1):
+* def maFonction3(parametre_1, parametre_2):
+
+Une fonction *peut* retourner une ou plusieurs valeurs, pour cela **il faut** utiliser le mot reservé **return**
+
+Pour qu'une fonction execute les instructions qu'elles *contient*, il faut l'appeller. Pour cela, on utilise son nom avec ses paramètres entre parenthèse
+
+* maFonction2(un_paramètre)
+* maFonction3(le_1er_paramètre, le_2nd_paramètre)
+
+ou bien son nom et les parathèse ouvrante-fermante sans paramètre si la fonction n'en necessite pas.
+```
+maFonction()
+```
+
+Si une fonction renvoie une ou des valeurs, on peut:
+* l'afficher directement :
+```
+print(maFonction())
+```
+* le / les sauvearder pour l' / les utiliser ultérieurement :
+```
+valeur_de_retour = maFonction_qui_retourne_qqch() *#affecte la valeur de retour de la fonction à une variable*
+print(valeur_de_retour) *#exemple d'utilisation : un simple affichage*
+```
+'''
+
+#-------------------------------------------------
+#Ecrire une fonction qui affiche "rien"
+#à vous
+
+def printRien():
+    print('rien')
+
+printRien()
+#-------------------------------------------------
+
+#Ecrire une fonction qui retourne "quelque-chose"
+#afficher directement  le resultat avec un premiere appel
+#afficher le resultat via une variable avec un second appel
+#à vous
+
+def maFonction():
+    return("quelque-chose")
+
+print(maFonction())
+
+a = maFonction()
+print(a)
+#-------------------------------------------------
+
+'''
+Pour retourner plusieurs valeur, il suffit de séparer celles-ci par des virules
+```
+def foo():
+ return a, b, c
+```
+Pour récupérer les valeurs multiples, il suffit de séparer les variables par des virgules:
+```
+ret_a, ret_b, ret_c = foo()
+```
+Il est aussi possible de recuperer les différentes valeurs dans une variable
+```
+ret_puplet = foo()
+```
+La variable est alors un p-uplet, c'est-a-dire un ensemble de valeur non modifiable
+```
+ret_a = ret_puplet[0]
+ret_b = ret_puplet[1]
+ret_c = ret_puplet[2]
+
+ret_puplet[0] = 0 <- erreur
+```
+'''
+
+#ecrire une fonction retourne_deux_valeurs() qui retourne deux valeurs "hello world" et 42
+def returnTwoValues():
+    return "Hello World", 42
+#recuperer ses valeurs lors d'un premier appel dans deux variables different, les afficher
+v1, v2 = returnTwoValues()
+print(v1, v2)
+#recuperer ses valeurs lors d'un second appel dans une variable, l'afficher, puis afficher les deux valeurs séparement en indexant la variable
+#à vous
+stockTwoValues = returnTwoValues()
+print(stockTwoValues[0])
+print(stockTwoValues[1])
+
+
+
