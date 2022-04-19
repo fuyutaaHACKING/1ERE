@@ -1,3 +1,4 @@
+'''
 from math import sqrt
 
 def pythagore():
@@ -31,3 +32,4 @@ def pythagore():
     
     else:
     	print('Please select a side between a, b, c')
+'''
